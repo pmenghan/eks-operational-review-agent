@@ -5,7 +5,7 @@
 # Configuration
 S3_BUCKET="your-s3-bucket-name"
 S3_KEY="eks-operations-agent.zip"
-SOURCE_PATH="eks-operations-agent.zip"
+SOURCE_PATH="https://github.com/pmenghan/eks-operational-review-agent/blob/main/eks-operations-agent.zip"
 
 # Check if AWS CLI is installed
 if ! command -v aws &> /dev/null; then
